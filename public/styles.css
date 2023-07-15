@@ -1,0 +1,114 @@
+html, body, h1, h2, h3, h4, h5 {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+body {
+    background-color: bisque;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.breadcrumb-box {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.breadcrumb {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+.breadcrumb li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.breadcrumb li a {
+    color: #333
+}
+
+.page-header {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.action-box {
+    border: 3px dashed grey;
+    border-radius: 50px;
+    width: 70%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.action-box-header {
+    width: 100%;
+    text-align: center;
+}
+
+.action-box-header h1 {
+    font-size: 50px;
+}
+
+.action-box-body {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.action-box-body .action-box-form {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.action-box-body .action-box-form select {
+    width: 100%;
+    background-color: rgb(247, 224, 198);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.action-box-body .action-box-form input {
+    width: 100%;
+    background-color: rgb(247, 224, 198);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.action-box-body .action-box-form button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-box-body .action-box-results {
+    margin-top: 70px;
+    display: none;
+}
+
+.action-box-body .action-box-results .action-box-results-header {
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}

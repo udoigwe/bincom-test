@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Bincom Test | Score Sheet</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="breadcrumb-box">
+                <ul class="breadcrumb">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="lga-results.html">LGA Results</a></li>
+                    <li><a href="score-sheet.html">Score Sheet</a></li>
+                </ul>
+            </div>
+            <div class="action-box">
+                <div class="action-box-header">
+                    <h1>Polling Unit Score Sheet</h1>
+                    <span>All fields are required</span>
+                </div>
+                <div class="action-box-body">
+                    <div class="action-box-form">
+                        <form class="polling-unit-results" id="score-sheet">
+                            <select class="form-control state required" name="state">
+                                <option value="">Please Select State</option>
+                            </select>
+                            <select class="form-control lga required" name="lga">
+                                <option value="">Please Select LGA</option>
+                            </select>
+                            <select class="form-control ward required" name="ward">
+                                <option value="">Please Select Ward</option>
+                            </select>
+                            <select class="form-control polling-unit required" name="polling_unit">
+                                <option value="">Please Select Polling Unit</option>
+                            </select>
+                            <select class="form-control party required" name="party">
+                                <option value="">Please Select Party</option>
+                            </select>
+                            <input class="form-control score required" name="score" placeholder="Enter Score"/>
+                            <input class="form-control entered_by required" name="entered_by" placeholder="Entered By"/>
+                            <button type="submit" class="btn-block btn-success">Submit Score</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/blockui/jquery.blockUI.min.js"></script>
+        <script src="js/const.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
